@@ -35,6 +35,10 @@ a{
     text-decoration: none
 }
 
+a:hover{
+    color: aqua;
+}
+
 .aboutMe {
     display: flex;
     flex-direction: row;
@@ -74,6 +78,10 @@ a{
     margin: 2px;
 }
 
+.proects a:hover{
+    color: aqua;
+}
+
 #Work .projects .projBig{
     flex: 100%;
     border: solid darkblue 1px;
@@ -81,7 +89,7 @@ a{
     margin: 5px;
 }  
 #Work .projects .projSmall{
-    flex: 48%;
+    flex: 47%;
     border: solid darkblue 1px;
     height: 200px;
     margin: 5px;
@@ -135,4 +143,55 @@ a{
 }
 #contactMe ul li a{
     color: black;
+}
+
+@media screen and (max-width: 600px) {
+    header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+    .aboutMe {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-bottom: dashed black 2px;
+    }
+
+    .aboutMe aside {
+        border-right: none;
+        border-bottom: 2px solid darkblue;;
+
+    }
+    #Work {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-bottom: dashed black 2px;
+    }
+
+    #Work aside {
+        border-right: none;
+        border-bottom: 2px solid darkblue;
+        align-items: center;
+        padding: 0 10px;
+    }
+
+    #Work .projects .projSmall {
+        flex: 40%;
+        
+    }
+
+    #contactMe {
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+    }
+    #contactMe aside {
+        border-right: none;
+        border-bottom: 2px solid darkblue;
+        text-align: center;
+        left: auto;
+        padding: 0 10px;
+    }
 }
