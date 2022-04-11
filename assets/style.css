@@ -69,6 +69,9 @@ a{
     background-color: lightblue;
     padding: 2px;
     color: black;
+    display: block;
+    width: fit-content;
+    margin: 2px;
 }
 
 #Work .projects .projBig{
@@ -84,29 +87,29 @@ a{
     margin: 5px;
 }
 #proj1 {
-    background-image: url("../assets/images/code_screen.jpeg");
-    background-size: cover;
+    background-image: url("./images/Sport_Event_Webpage.JPG");
+    background-size: 100%;
     background-position: center;
 }
 #proj2 {
-    background-image: url("../assets/images/computer_lab_image.jpg");
+    background-image: url("./images/Workday_Scheduler_page.JPG");
     background-size: cover;
     background-position: center;
 }
 #proj3 {
-    background-image: url("../assets/images/puzzle_image.jpg");
+    background-image: url("./images/Weather_dash_webpage.JPG");
     background-size: cover;
     background-position: center;
 }
 #proj4 {
-    background-image: url("../assets/images/waves_wallpaper.jpg");
+    background-image: url("./images/Password_webpage.JPG");
     background-size: cover;
     background-position: center;
 }
 #proj5 {
-    background-image: url("../assets/images/LED_wall.jfif");
-    background-size: cover;
-    background-position: center;
+    background-image: url("./images/Code_Quiz_img.JPG");
+    background-size: 280%;
+    background-position: left;
 }
 #contactMe{
     display: flex;
