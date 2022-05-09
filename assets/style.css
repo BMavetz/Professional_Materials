@@ -95,12 +95,12 @@ a:hover{
     margin: 5px;
 }
 #proj1 {
-    background-image: url("./images/Sport_Event_Webpage.JPG");
+    background-image: url("./images/YouFoods_homepage.JPG");
     background-size: 100%;
-    background-position: center;
+    background-position: top;
 }
 #proj2 {
-    background-image: url("./images/Workday_Scheduler_page.JPG");
+    background-image: url("./images/Sport_Event_Webpage.JPG");
     background-size: cover;
     background-position: center;
 }
@@ -110,7 +110,7 @@ a:hover{
     background-position: center;
 }
 #proj4 {
-    background-image: url("./images/Password_webpage.JPG");
+    background-image: url("./images/Workday_Scheduler_page.JPG");
     background-size: cover;
     background-position: center;
 }
